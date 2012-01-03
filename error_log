@@ -1,0 +1,23 @@
+[21-Jul-2010 23:28:41] PHP Warning:  require_once(./smarty/Smarty.class.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/asper2/public_html/edwardlover/index.php on line 7
+[21-Jul-2010 23:28:41] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required './smarty/Smarty.class.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/asper2/public_html/edwardlover/index.php on line 7
+[17-Jan-2011 11:47:56] PHP Fatal error:  Uncaught exception 'Doctrine_Connection_Exception' with message 'PDO Connection Error: SQLSTATE[42000] [1044] Access denied for user 'asper2_scripts'@'localhost' to database 'asper2_edwardlover'' in /home/asper2/public_html/edwardlover/doctrine/Doctrine/Connection.php:474
+Stack trace:
+#0 /home/asper2/public_html/edwardlover/doctrine/Doctrine/Connection/Mysql.php(101): Doctrine_Connection->connect()
+#1 /home/asper2/public_html/edwardlover/doctrine/Doctrine/Connection.php(1001): Doctrine_Connection_Mysql->connect()
+#2 /home/asper2/public_html/edwardlover/doctrine/Doctrine/Query/Abstract.php(976): Doctrine_Connection->execute('SELECT s.id AS ...', Array)
+#3 /home/asper2/public_html/edwardlover/doctrine/Doctrine/Query/Abstract.php(1026): Doctrine_Query_Abstract->_execute(Array)
+#4 /home/asper2/public_html/edwardlover/controllers/mainpage.php(9): Doctrine_Query_Abstract->execute()
+#5 /home/asper2/public_html/edwardlover/index.php(29): require('/home/asper2/pu...')
+#6 /home/asper2/public_html/edwardlover/index.php( in /home/asper2/public_html/edwardlover/doctrine/Doctrine/Connection.php on line 474
+[17-Jan-2011 11:49:52] PHP Warning:  Invalid argument supplied for foreach() in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 71
+[17-Jan-2011 11:49:52] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 75
+[17-Jan-2011 11:49:52] PHP Warning:  array_reverse() [<a href='function.array-reverse'>function.array-reverse</a>]: The argument should be an array in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 76
+[17-Jan-2011 11:54:15] PHP Warning:  Invalid argument supplied for foreach() in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 71
+[17-Jan-2011 11:54:15] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 75
+[17-Jan-2011 11:54:15] PHP Warning:  array_reverse() [<a href='function.array-reverse'>function.array-reverse</a>]: The argument should be an array in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 76
+[17-Jan-2011 11:58:59] PHP Warning:  Invalid argument supplied for foreach() in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 90
+[17-Jan-2011 11:58:59] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 95
+[17-Jan-2011 11:58:59] PHP Warning:  array_reverse() [<a href='function.array-reverse'>function.array-reverse</a>]: The argument should be an array in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 96
+[17-Jan-2011 11:59:01] PHP Warning:  Invalid argument supplied for foreach() in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 90
+[17-Jan-2011 11:59:01] PHP Warning:  asort() expects parameter 1 to be array, null given in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 95
+[17-Jan-2011 11:59:01] PHP Warning:  array_reverse() [<a href='function.array-reverse'>function.array-reverse</a>]: The argument should be an array in /home/asper2/public_html/edwardlover/controllers/mainpage.php on line 96

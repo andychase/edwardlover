@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    color: red;
+}
+
+img {
+    border: 0px;
+}
+
+input {
+    color: red;
+}
+
+#typeno {
+    display: none;
+}
+
+h1 {
+    color: red;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+/* Home Page */
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border: 1px white solid;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.content {
+    margin-top: -100px;
+}
+
+.bigStyleId {
+    font-size:3em;
+}
+
+.pages {
+    line-height:30px;
+}
+
+.pages a {
+    border: 1px red solid;
+    padding: 2px;
+    color: red;
+}
+
+.pages span {
+    border: 1px red solid;
+    background-color: red;
+    padding: 2px;
+    color: white;
+}
+
+.scoreboard {
+float: right;
+margin-right: -205px;
+padding:0 10px 10px;
+width:180px;
+overflow: hidden;
+}
+
+.scoreboard h4{
+    color: white;
+    border-bottom: 2px dotted red;
+}
+
+.adbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 728px;
+    padding: 10px;
+    padding-top: 0px;
+}

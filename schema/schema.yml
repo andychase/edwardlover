@@ -1,0 +1,31 @@
+Shout:
+  tableName: shout
+  columns:
+    id:
+      type: integer(4)
+      unsigned: 0
+      primary: true
+      autoincrement: true
+    name:
+      type: string(2147483647)
+      fixed: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    body:
+      type: string(2147483647)
+      fixed: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    color:
+      type: string(2147483647)
+      fixed: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    date:
+      type: date(25)
+      primary: false
+      notnull: false
+      autoincrement: false
