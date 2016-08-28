@@ -38,7 +38,7 @@ define('SANDBOX_PATH', dirname(__FILE__));
 define('DOCTRINE_PATH', SANDBOX_PATH);
 
 //define('DSN', 'sqlite:///' . DB_PATH);
-define('DSN', 'mysql://db140346_scripts:=tp*BH5JjkE@internal-db.s140346.gridserver.com/db140346_edwardlover');
+define('DSN', getenv('CLEARDB_DATABASE_URL'));
 
 require_once(DOCTRINE_PATH . DIRECTORY_SEPARATOR . 'Doctrine.php');
 
